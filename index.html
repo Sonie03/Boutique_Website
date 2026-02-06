@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boutique Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #b76e79;
+            padding: 15px;
+            text-align: center;
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .banner {
+            background-image: url("C:\Users\USER\OneDrive\Desktop\Boutique_Website\Images\dress logo.jpg");
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product-card {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-card button {
+            background-color: #b76e79;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .product-card button:hover {
+            background-color: #9d5c66;
+        }
+
+        .contact {
+            background-color: #fce4ec;
+        }
+
+        footer {
+            background-color: #b76e79;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sonie Boutique</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Collections</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="banner" id="home">
+    New Arrivals ✨
+</div>
+
+<div class="section" id="products">
+    <h2>Our Collections</h2>
+
+    <div class="products">
+        <div class="product-card">
+            <img src="C:\Users\USER\OneDrive\Desktop\Boutique_Website\Images\dress2.jpg" alt="Dress">
+            <h3>Designer Kurti</h3>
+            <p>₹540</p>
+            <button>Order on WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <img src="C:\Users\USER\OneDrive\Desktop\Boutique_Website\Images\dress1.jpg" alt="Dress">
+            <h3>Silk Saree</h3>
+            <p>₹4,999</p>
+            <button>Order on WhatsApp</button>
+        </div>
+       <div class="product-card">
+            <img src="C:\Users\USER\OneDrive\Desktop\Boutique_Website\Images\pink-dress.jpg" alt="Dress">
+            <h3>Silk Saree</h3>
+            <p>₹5,999</p>
+            <button>Order on WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="C:\Users\USER\OneDrive\Desktop\Boutique_Website\Images\dress.jpg" alt="Dress">
+            <h3>Silk Saree</h3>
+            <p>₹3600</p>
+            <button>Order on WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="C:\Users\USER\OneDrive\Desktop\Boutique_Website\Images\dress3.jpg" alt="Dress">
+            <h3>Silk Saree</h3>
+            <p>₹1000</p>
+            <button>Order on WhatsApp</button>
+        </div>
+        <div class="product-card">
+            <img src="C:\Users\USER\OneDrive\Desktop\Boutique_Website\Images\dress4.jpg" alt="Dress">
+            <h3>Silk Saree</h3>
+            <p>₹999</p>
+            <button>Order on WhatsApp</button>
+        </div>
+
+    </div>
+</div>
+
+<div class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+        Elegant Boutique brings you hand-picked ethnic and modern outfits
+        designed for comfort, elegance, and style. Custom stitching available.
+    </p>
+</div>
+
+<div class="section contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: +91 7358864319</p>
+    <p>📧 Email: sonieemmanuvel@gmail.com</p>
+    <p>📍 Location: Nagercoil, India</p>
+</div>
+
+<footer>
+    © 2026 Elegant Boutique. All Rights Reserved.
+</footer>
+
+<a class="whatsapp" 
+   href="https://wa.me/917358864319" 
+   target="_blank">💬</a>
+
+</body>
+</html>
